@@ -1,0 +1,68 @@
+.mobile-money-transaction-details {
+    max-width: 800px;
+    margin: 20px 0;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.transaction-status {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.transaction-status.pending {
+    background: #f8dda7;
+    color: #94660c;
+}
+
+.transaction-status.completed {
+    background: #c6e1c6;
+    color: #5b841b;
+}
+
+.transaction-status.failed {
+    background: #f1adad;
+    color: #8d1f1f;
+}
+
+.transaction-info table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transaction-info th {
+    text-align: left;
+    width: 200px;
+    padding: 12px;
+    background: #f8f9fa;
+}
+
+.transaction-info td {
+    padding: 12px;
+}
+
+.transaction-metadata {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.transaction-metadata pre {
+    margin: 0;
+    white-space: pre-wrap;
+}
+
+.transaction-actions {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.transaction-actions button {
+    margin-right: 10px;
+}
