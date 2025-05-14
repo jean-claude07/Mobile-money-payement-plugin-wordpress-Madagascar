@@ -1,31 +1,180 @@
-# Mobile Money Madagascar Plugin
 
-## Description
-The Mobile Money Madagascar plugin provides a secure and efficient payment gateway for WooCommerce, allowing users to make payments via Mvola, Orange Money, and Airtel Money. This plugin is designed to enhance the payment experience for customers in Madagascar while ensuring robust security measures and transaction management.
+# 📱 Mobile Money payement plugin wordpress Madagascar
 
-## Features
-- **Multiple Payment Options**: Supports Mvola, Orange Money, and Airtel Money.
-- **Secure Transactions**: Implements security measures to protect user data and prevent vulnerabilities.
-- **Transaction History**: Admin interface to view and manage transaction records.
-- **Customizable Settings**: Easy configuration of payment options and API settings through the WordPress admin panel.
-- **Localization Support**: Ready for translation with a language template file.
+**Version du plugin** : 1.2.1  
+**Compatibilité WordPress** : 5.0+  
+**Compatibilité WooCommerce** : 6.0+
 
-## Installation
-1. Upload the `mobil-money-plugin` directory to the `/wp-content/plugins/` directory.
-2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Configure the plugin settings under the WooCommerce settings page.
+---
 
-## Usage
-- Navigate to WooCommerce settings and select the "Mobile Money Madagascar" payment option.
-- Fill in the required API URLs and merchant number.
-- Customers can select their preferred mobile money operator during checkout.
+## 📝 Présentation
 
-## Support
-For support, please contact the plugin author at [your-email@example.com].
+**Mobile Money Madagascar** est un plugin WooCommerce qui permet l'intégration des principaux services de paiement mobile à Madagascar : **MVola**, **Orange Money** et **Airtel Money**.  
+Conçu pour les sites WordPress, il permet aux e-commerçants malgaches de proposer une solution de paiement sécurisée, rapide et compatible avec tous les appareils mobiles.
 
-## Changelog
-- **1.0**: Initial release with basic payment functionality.
-- **1.1**: Added transaction history and improved security features.
+---
 
-## License
-This plugin is licensed under the GPL2 license.# Mobile-money-payement-plugin-wordpress-Madagascar
+## ✨ Fonctionnalités
+
+### 🔐 Paiements mobiles sécurisés
+- 💳 Compatibilité avec **MVola**, **Orange Money** et **Airtel Money**
+- 🔄 Paiements en **temps réel**
+- 📱 Interface responsive et intuitive
+- 🧾 Génération automatique des reçus
+
+### 🛡️ Sécurité avancée
+- 🔐 Chiffrement des données sensibles
+- 🛡️ Protection contre les attaques CSRF
+- 🔍 Détection de fraudes
+- 📊 Journalisation des événements critiques
+
+### ⚙️ Interface d'administration complète
+- 📊 Tableau de bord analytique
+- 📈 Statistiques en temps réel
+- 💰 Gestion des transactions et remboursements
+- 🧩 Paramétrage des passerelles de paiement
+- 🖥️ UI claire et intuitive
+
+---
+
+## 📋 Prérequis techniques
+
+- WordPress **5.0** ou plus
+- WooCommerce **6.0** ou plus
+- PHP **7.2** ou supérieur
+- Extension **OpenSSL** activée
+- Site en **HTTPS** (obligatoire)
+
+---
+
+## 💻 Installation
+
+### Méthode manuelle
+
+```bash
+cd /var/www/html/wordpress/wp-content/plugins/
+git clone https://github.com/jean-claude07/Mobile-money-payement-plugin-wordpress-Madagascar.git
+```
+
+### Depuis l’interface WordPress
+
+1. Allez dans **Extensions > Ajouter**
+2. Cliquez sur **Téléverser une extension**
+3. Sélectionnez l’archive `.zip` du plugin
+4. Cliquez sur **Installer maintenant**, puis **Activer**
+
+---
+
+## ⚙️ Configuration du plugin
+
+### Accès
+`WooCommerce > Réglages > Paiements`
+
+### Paramétrage des opérateurs
+
+#### MVola
+- API URL
+- Clé API
+- Numéro marchand
+- Mode **sandbox** ou **production**
+
+#### Orange Money
+- API URL
+- Clé API
+- Numéro marchand
+- Mode **sandbox** ou **production**
+
+#### Airtel Money
+- API URL
+- Clé API
+- Numéro marchand
+- Mode **sandbox** ou **production**
+
+---
+
+## 🔧 Utilisation
+
+### Pour les administrateurs
+- 🔁 Gestion des paiements : `Mobile Money > Transactions`
+- 📊 Statistiques : `Mobile Money > Tableau de bord`
+- ⚙️ Réglages : `Mobile Money > Réglages`
+
+### Pour les clients
+- Paiement mobile disponible à la commande
+- Choix de l’opérateur souhaité
+- Saisie du numéro de téléphone
+- Confirmation via téléphone mobile
+
+---
+
+## 🧪 Débogage & Logs
+
+Les fichiers logs sont situés dans :
+```
+wp-content/plugins/mobil-money-plugin/logs/
+```
+
+---
+
+## 🛠️ Support technique
+
+- 📧 Email : [contact@dizitalizeo.com](mailto:contact@dizitalizeo.com)
+- 🌐 Site : [www.dizitalizeo.com](https://www.dizitalizeo.com)
+- 📞 Téléphone : +261 34 60 813 51
+
+---
+
+## 🤝 Contribuer
+
+Toutes les contributions sont les bienvenues !
+
+1. Forkez le projet
+2. Créez une branche : `feature/nom-fonctionnalité`
+3. Committez vos modifications
+4. Poussez vers votre dépôt forké
+5. Créez une **Pull Request**
+
+---
+
+## 📌 Journal des versions
+
+### 🆕 v1.2.1 – *30 avril 2025*
+- ✅ Compatibilité HPOS WooCommerce
+- 🐞 Correction de bugs critiques
+- 🔒 Renforcement de la sécurité
+
+### v1.1.0
+- 📊 Ajout du tableau de bord
+- 🔄 Amélioration des confirmations automatiques
+
+### v1.0.0
+- 🚀 Version initiale stable
+- 💳 Support de base MVola, Orange & Airtel
+
+---
+
+## 📜 Licence
+
+Ce plugin est distribué sous **GPL v2** ou version ultérieure.
+
+---
+
+## 👤 Auteur
+
+**RAKOTONARIVO Jean Claude**  
+🌐 [www.dizitalizeo.com](https://www.dizitalizeo.com)  
+🐙 [GitHub : jean-claude07](https://github.com/jean-claude07)  
+💼 LinkedIn : RAKOTONARIVO Jean Claude
+
+---
+
+## ⚠️ Recommandations importantes
+
+- Ayez une connexion stable pour toutes les opérations critiques
+- Effectuez vos tests sur un environnement sandbox avant la production
+- Sauvegardez régulièrement votre base de données et vos fichiers
+- Maintenez le plugin à jour pour bénéficier des dernières améliorations
+
+---
+
+© 2025 Jean Claude RAKOTONARIVO – Tous droits réservés.
